@@ -1,0 +1,16 @@
+.container {
+  /* min-width: 100vw; */
+  min-height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url("./bg_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container_cover {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}

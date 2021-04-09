@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Movie App from 404th Group",
+  "main": "server.js",
+  "scripts": {
+    "start":"nodemon server.js"
+  },
+  "keywords": [
+    "movie",
+    "cinema",
+    "kino",
+    "film"
+  ],
+  "author": "404th",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
