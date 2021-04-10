@@ -1,0 +1,79 @@
+.slider_item {
+  padding: 10px;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.slider_item_cover {
+  width: 100%;
+  height: 100%;
+}
+
+.slider_item_cover_video {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.slider_item_cover_video img {
+  border-radius: 10px;
+}
+
+.slider_item_cover_title {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider_item_cover_title span {
+  font-family: "Lato";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #fff;
+}
+
+.slider_item_cover_title p {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 1.155555009841919px;
+  text-align: left;
+
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+
+  color: #fff;
+}
+
+.slider_item_cover_button {
+  width: 100px;
+  transition: 0.3s;
+}
+
+.slider_item_cover_button button {
+  max-width: 220px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #f3353e;
+  color: #fff;
+  border-radius: 6px;
+  outline: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.slider_item_cover_button button:hover {
+  background-color: #f3353e;
+  color: #fff;
+}
+
+.slider_item_cover_button button:active {
+  opacity: 0.5;
+}

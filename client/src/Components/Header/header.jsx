@@ -11,8 +11,8 @@ function Header(){
           </Link>
         </div>
         <div className="header_navigator_container">
-          <Link to={"/"} className="flex_center header_navigator_container_a">MOVIES</Link>
-          <Link to={"/"} className="flex_center header_navigator_container_a">SHOWS</Link>
+          <Link to={"/recommended"} className="flex_center header_navigator_container_a">MOVIES</Link>
+          <Link to={"/dashboard"} className="flex_center header_navigator_container_a">TRAILER</Link>
           <Link to={"/"} className="flex_center header_navigator_container_a">ACTORS</Link>
           <Link to={"/"} className="flex_center header_navigator_container_a">NEWS</Link>
           <Link to={"/"} className="flex_center header_navigator_container_a">COMMUNITY</Link>
